@@ -1,4 +1,4 @@
-Project Codebook 
+**Project Codebook** 
 
 This is the codebook to the clean dataset created in this project. Below you will find information concerning the source of the data, as well as descriptions of the variables used and the transformations applied. 
 
