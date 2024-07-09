@@ -28,7 +28,7 @@ Creates a second, independent tidy data set with the average of each variable fo
 Below is a list of all the variables (in order of appearance) created in the R script and what they contain: 
 
 
-file_url: contains url to file for the original dataset \n
+file_url: contains url to file for the original dataset\n
 train_set: reads table X_train.txt table form the original dataset into R, which contains table of the training set  \n
 train_label: reads the table y_train.txt table from the original dataset into R, which contains the activity labels(numbered 1-6 for activities 1-6) that accompany the training set 
 test_set: reads the table X_test.txt table from the original dataset into R, which contains the table of the test set \n
