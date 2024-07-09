@@ -28,15 +28,24 @@ Creates a second, independent tidy data set with the average of each variable fo
 Below is a list of all the variables (in order of appearance) created in the R script and what they contain: 
 
 
-file_url: contains url to file for the original dataset\n
-train_set: reads table X_train.txt table form the original dataset into R, which contains table of the training set  \n
+file_url: contains url to file for the original dataset
+
+train_set: reads table X_train.txt table form the original dataset into R, which contains table of the training set 
+
 train_label: reads the table y_train.txt table from the original dataset into R, which contains the activity labels(numbered 1-6 for activities 1-6) that accompany the training set 
-test_set: reads the table X_test.txt table from the original dataset into R, which contains the table of the test set \n
+
+test_set: reads the table X_test.txt table from the original dataset into R, which contains the table of the test set 
+
 test_label: reads the table y_test.txt table from the original dataset into R, which contains the activity labels (numbered 1-6 for activities 1-6) that accompany the test set 
-subject_train: reads the subject_train.txt table from the original dataset into R, which identifies the subject who performed the activity for each sample (range 1-30 for subjects 1-30) \n
-subject_test: reads the subject_test.txt table from the original dataset into R, which identifies the subject who performed the activity for each sample (range 1-30 for subjects 1-30) \n 
-activityLabels:  reads the activity_labels.txt table from the original dataset into R, which is a table that matches the activity label (numbered 1-6 for activities 1-6), to the activity name (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)  \n
-features:  reads the features.txt  table from the original dataset into R, which lists all the features  \n
+
+subject_train: reads the subject_train.txt table from the original dataset into R, which identifies the subject who performed the activity for each sample (range 1-30 for subjects 1-30) 
+
+subject_test: reads the subject_test.txt table from the original dataset into R, which identifies the subject who performed the activity for each sample (range 1-30 for subjects 1-30) 
+
+activityLabels:  reads the activity_labels.txt table from the original dataset into R, which is a table that matches the activity label (numbered 1-6 for activities 1-6), to the activity name (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+features:  reads the features.txt  table from the original dataset into R, which lists all the features
+
 train: merges together the train_label, subject_train, and train_set tables so that we may have a df with the train set organized by subject and activity label  \n
 test: merges together the test_label, subject_test and test_set tables so that we may have a df with the test set organized by subject and activity label  \n
 cleandata: merges together the train and test dfs, so we have a clean dataset with the train and test sets by activity label and subject  \n
