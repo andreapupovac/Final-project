@@ -98,3 +98,6 @@ tidy_dataset <- df_acitivty_names %>%
   group_by(ID, activityLabel, activityType) %>%
   summarise_all(mean)
 tidy_dataset
+
+# Save tidy_dataset as a text file
+write.table(tidy_dataset, file = "tidy_dataset.txt", sep = "\t", row.names = FALSE)
