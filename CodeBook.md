@@ -1,8 +1,10 @@
-**Project Codebook** 
+---
+title:  " Code Book"
+---
 
 This is the codebook to the clean dataset created in this project. Below you will find information concerning the source of the data, as well as descriptions of the variables used and the transformations applied. 
 
-**Sourcing the Data:** 
+#Sourcing the Data:
  
 The data used in this project is sourced from the UC Irvine Machine Learning Repository and is a database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors (Link: https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones  ) . The 30 subjects were within the age bracket of 19-48 years old. 
 
@@ -11,7 +13,7 @@ Each person performed 6 activities (walking, walking upstairs, walking downstair
 The data was sourced from the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-**The R script** 
+#The R script 
 
 To run the operations necessary to obtain the final clean dataset, execute the run_analysis.R  R script. The R script does the following tasks (in order), providing you with a clean version of the dataset from the ZIP file in which the data is originally stored:
 
@@ -24,7 +26,7 @@ Creates a second, independent tidy data set with the average of each variable fo
 
 
 
-**Variables** 
+#Variables
 Below is a list of all the variables (in order of appearance) created in the R script and what they contain: 
 
 
