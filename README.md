@@ -5,8 +5,8 @@ This project involves the creation of a clean dataset by performing various data
 ## Instructions
 
 Before running the script, ensure that you have the following R packages installed:
-- dplyr
-- stringr
+- `dplyr`
+- `stringr`
 
 You can install them using the following commands:
 
